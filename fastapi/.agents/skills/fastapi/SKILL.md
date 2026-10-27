@@ -294,8 +294,6 @@ See [the dependency injection reference](references/dependencies.md) for detaile
 
 Use dependencies when the logic can't be declared in Pydantic validation, depends on external resources, needs cleanup (with `yield`), or is shared across endpoints.
 
-Apply shared dependencies at the router level via `dependencies=[Depends(...)]`.
-
 ## Async vs Sync *path operations*
 
 Use `async` *path operations* only when fully certain that the logic called inside is compatible with async and await (it's called with `await`) or that doesn't block.
