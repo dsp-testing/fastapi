@@ -47,7 +47,7 @@ Use the following preferred translations when they apply in documentation prose:
 - `/// warning | 경고`
 - `/// info | 정보`
 - `/// danger | 위험`
-- `/// note Technical Details | 기술 세부사항`
+- `/// note | 기술 세부사항`
 - `/// check | 확인`
 Notes:
 
